@@ -1,17 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T09:45:34.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="NPTC2fhJu37NhXR9vMyZ" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-24T07:18:55.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2PcpyL7XKOf8l9gxpOeI" version="15.8.6" type="github">
   <diagram id="hQnVQ_uG6fv_r-b64lrz" name="第 1 页">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="1994" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rx3Sz0ePJHfe0G7xnC0K-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="100" height="30" as="geometry" />
+        <mxCell id="LxIuB8-cTld5doaONpnr-7" value="&lt;font style=&quot;font-size: 11px&quot;&gt;TableEnvironmentImpl&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;strokeColor=#000000;gradientColor=none;size=25;fillColor=#FFFFC0;" vertex="1" parent="1">
+          <mxGeometry x="-264" y="-800" width="134.89" height="709.83" as="geometry" />
         </mxCell>
-        <mxCell id="rx3Sz0ePJHfe0G7xnC0K-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="50" width="100" height="30" as="geometry" />
+        <mxCell id="LxIuB8-cTld5doaONpnr-14" value="executeSql" style="html=1;verticalAlign=bottom;endArrow=classicThin;rounded=1;shadow=0;sketch=0;fontSize=11;startSize=8;endSize=10;sourcePerimeterSpacing=14;targetPerimeterSpacing=19;strokeColor=#000000;strokeWidth=1;jumpStyle=none;jumpSize=17;endFill=1;" edge="1" parent="LxIuB8-cTld5doaONpnr-7" target="LxIuB8-cTld5doaONpnr-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="71" y="97" as="sourcePoint" />
+            <mxPoint x="151" y="97" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="rx3Sz0ePJHfe0G7xnC0K-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="50" width="100" height="30" as="geometry" />
+        <mxCell id="LxIuB8-cTld5doaONpnr-13" value="&lt;font style=&quot;font-size: 11px&quot;&gt;ParserImpl&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;strokeColor=#000000;gradientColor=none;size=25;fillColor=#FFFFC0;" vertex="1" parent="1">
+          <mxGeometry x="-119" y="-800" width="70" height="708" as="geometry" />
+        </mxCell>
+        <mxCell id="LxIuB8-cTld5doaONpnr-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;strokeColor=#000000;fillColor=#FFFFC0;" vertex="1" parent="LxIuB8-cTld5doaONpnr-13">
+          <mxGeometry x="30" y="95" width="10" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="LxIuB8-cTld5doaONpnr-17" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;FlinkSqlParserImpl&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;strokeColor=#000000;gradientColor=none;size=25;fillColor=#FFFFC0;" vertex="1" parent="1">
+          <mxGeometry x="-38" y="-800.83" width="104" height="708.83" as="geometry" />
+        </mxCell>
+        <mxCell id="LxIuB8-cTld5doaONpnr-19" value="parse" style="html=1;verticalAlign=bottom;endArrow=classicThin;rounded=1;shadow=0;sketch=0;fontSize=11;startSize=8;endSize=10;sourcePerimeterSpacing=14;targetPerimeterSpacing=19;strokeColor=#000000;strokeWidth=1;jumpStyle=none;jumpSize=17;endFill=1;" edge="1" parent="LxIuB8-cTld5doaONpnr-17" target="LxIuB8-cTld5doaONpnr-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-41" y="120.83000000000004" as="sourcePoint" />
+            <mxPoint x="51" y="120.83000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LxIuB8-cTld5doaONpnr-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;strokeColor=#000000;fillColor=#FFFFC0;" vertex="1" parent="LxIuB8-cTld5doaONpnr-17">
+          <mxGeometry x="47" y="118.83" width="10" height="48.17" as="geometry" />
+        </mxCell>
+        <mxCell id="LxIuB8-cTld5doaONpnr-24" value="parse" style="html=1;verticalAlign=bottom;endArrow=classicThin;rounded=0;shadow=0;sketch=0;fontSize=11;startSize=8;endSize=10;sourcePerimeterSpacing=14;targetPerimeterSpacing=19;strokeColor=#000000;strokeWidth=1;jumpStyle=none;jumpSize=17;endFill=1;" edge="1" parent="LxIuB8-cTld5doaONpnr-17">
+          <mxGeometry x="-0.5645" width="80" relative="1" as="geometry">
+            <mxPoint x="57" y="123.83000000000004" as="sourcePoint" />
+            <mxPoint x="57" y="158.83000000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="123.83000000000004" />
+              <mxPoint x="140" y="159" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
